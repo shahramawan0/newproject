@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/5341d8d076.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	theme: "light1", // "light2", "dark1", "dark2"
+	animationEnabled: false, // change to true		
+	title:{
+		text: "Basic Column Chart"
+	},
+	data: [
+	{
+		// Change type to "bar", "area", "spline", "pie",etc.
+		type: "column",
+		dataPoints: [
+			{ label: "apple",  y: 10  },
+			{ label: "orange", y: 15  },
+			{ label: "banana", y: 25  },
+			{ label: "mango",  y: 30  },
+			{ label: "grape",  y: 28  }
+		]
+	}
+	]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+    <div class="container-fluid">
+    	<nav class="navbar navbar-expand-lg fixed-top  navbar-light navcolor">
+            <img src="falcon.png" height="50px" width="50px"><a href="#">Falcon</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            	<form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Others</a>
+                    </li>
+                </ul>
+                
+            </div>
+            
+            <h5><a href="#">Sign In <i class="fas fa-sign-in-alt"></i></a></h5>
+             <h5><a href="#">Sign up <i class="fas fa-user-plus"></i></a></h5>
+        </nav>
+        <div class="row" style="margin-top: 10px;">
+        	<div class="col-sm-12">
+                <div class="webback">
+                    <div class="row">
+                        <div class="col-sm-6" style="margin-top: 50px;">
+                            <h1 class="headingof">In-demand talent on demand.</h1><br>
+                            <h1 class="headingof">Falcon is how.</h1>
+                            <h5 class="headingof">Falcon expertly connects professionals and agencies to businesses seeking specialized talent.</h5>
+                            <div style="margin-top: 30px;">
+                                <button class="btn btn-primary"><h1>Get Started</h1></button>   
+                                <button class="btn btn-outline-primary my-2 my-sm-0" style="margin-left: 20px;"><h1 class="headingof">Watch Demo</h1></button>  
+                            </div>                    
+                        </div>
+                        <div class="col-sm-6">
+                            <img src="web.jpg" height="450px" width="650px">
+                        </div>
+                    </div>
+                </div>
+                <!--Cards-->
+                <div class="container-fluid" style="background-color: #FCFAF4;">
+                    <center><h1 class="headingof" style="padding-top: 20px;">Find Your Services</h1></center>
+                    <div class="container-fluid row">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="desktop.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Desktop</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="admin.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Admin Support</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="creative.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Creative Writing</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="customer.png" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Customer Services</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="data.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Data Science & Analytical</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="engineering.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Engineering & Architecture</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="sales.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Sales & Marketing</h5>
+                            
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="writing.jpg" alt="Card image cap" height="150px">
+                        <div class="card-body">
+                            <h5 class="card-title headingof">Writing</h5>
+                            
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <!--Video Part-->
+                <div class="container-fluid" style="background-color: #FCFAF4;">
+                    
+                    <div class="container-fluid row" style="padding-top: 20px;">
+                        <div class="col-sm-6">
+                            <h3 class="headingof">Get Work Done Faster On Falcon, With Confidence</h3>
+                            <h5 class="headingof">
+                                <i class="fas fa-check-circle" style=" margin-right: 10px; color: green;"></i>Payment Protection, Guaranteed
+                            </h5>
+                            <p class="headingof">Payment is released to the freelancer once you’re pleased and approve the work you get.</p>
+                            <h5 class="headingof">
+                                <i class="fas fa-check-circle" style=" margin-right: 10px; color: green;"></i>Know The Price Upfront
+                            </h5>
+                            <p class="headingof">Find any service within minutes and know exactly what you’ll pay. No hourly rates, just a fixed price.</p>
+                            <h5 class="headingof">
+                                <i class="fas fa-check-circle" style=" margin-right: 10px; color: green;"></i>We’re Here For You 24/7
+                            </h5>
+                            <p class="headingof">Fiverr is here for you, anything from answering any questions to resolving any issues, at any time.</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <video width="600" controls autoplay>
+                                <source src="video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+        	</div>	
+        </div>
+        <footer>
+        	<div class="row">
+        		<div class="col-sm-1">
+        			<h3>Falcon</h3>
+        		</div>
+        		<div class="col-sm-5" style="padding-top: 10px;">
+        			<h6><i class="fas fa-copyright"></i>Copyright All rights reserved by Falcon</h6>
+        		</div>
+        		<div class="col-sm-3">
+        			<a href="#"><i class="fab fa-facebook"></i></a>
+        			<a href="#"><i class="fab fa-twitter-square"></i></a>
+        			<a href="#"><i class="fab fa-google-plus-square"></i></a>
+        			<a href="#"><i class="fab fa-linkedin"></i></a>
+        		</div>
+        		<div class="col-sm-3">
+        			<p>Designed by: Sharry Developers</p>
+        		</div>
+        	</div>
+        </footer>
+    </div>
+    <!-- javascript Labararies-->
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
